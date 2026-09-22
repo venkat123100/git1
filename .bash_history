@@ -131,3 +131,68 @@ git add .
 git commit -m "commits are pulled"
 git log
 git log --oneline
+pwd
+git init
+git status
+git add .
+git status
+git add .
+git status
+clear
+mkdir toy
+git add .
+git commit -m "toystack"
+touch toy/sample
+ls
+ls toy/sample
+echo "i am venkatreddy.k" > toy/sample 
+cat toy/sample
+git add .
+git commit -m "created a file"
+touch user
+touch toy/user
+touch toy/user1
+git add .
+git commit -m "created user user1 files"
+echo "i am doing internship" > toy/user
+cat toy/user
+git status
+git add toy/user
+git status
+git log 
+git branch toy
+git branch
+git switch toy
+git switch -c toy1
+git branch toystack
+git switch main
+git add .
+git commit -m "added toy branch"
+git clone https://github.com/venkat123100/toy.git
+git clone "https://github.com/venkat123100/toy.git git"
+git push origin main
+git remote add origin "https://github.com/venkat123100/toy.git"
+git remote add origin "https://github.com/venkat123100/toy.git 1"
+git push -u origin main
+git log 
+git branch
+git switch toy
+git branch
+git log --oneline
+git push -u origin toy
+git switch main 
+git push origin main
+git pull origin main
+git merge toy
+git push origin main
+git switch toy
+git status
+git log --oneline --decorate -10
+git remote -v
+git push -u origin toy
+git switch toy
+git status
+git log --oneline --decorate -10
+git remote -v
+git push -u origin toy
+git branch -vv
