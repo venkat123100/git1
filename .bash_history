@@ -85,3 +85,49 @@ git history
 git remote -v
 clear
 cd .
+pwd
+git init
+mkdir git
+mkdir ram
+touch ram/sample
+ls
+ls ram
+echo "i am doing internship" > ram/sample
+cat sample
+cat ram/sample
+git add .
+git add ram/sample
+git commit -m "created file"
+git add .
+git commit -m "added text to the file"
+git add ram/sample
+git commit -m "added text to the file"
+git add .
+git commit -m "added text to the file"
+git add ram/sample
+git commit -m "added text to the file"
+git commit -a
+git log --oneline
+git branch master
+git branch main
+git branch ram
+git switch main
+git switch -c ram1
+git branch
+git branch ramu
+git switch ramu1
+git switch ramu
+git switch -c ramu1
+git branch
+git merge ram1 ramu1
+git clone "https://github.com/venkat123100/ram.git"
+git push origin main
+git push -u origin main
+git pull origin main
+git add .
+git commit -m "commits are pushed"
+git commit -m "commits are pulled"
+git add .
+git commit -m "commits are pulled"
+git log
+git log --oneline
